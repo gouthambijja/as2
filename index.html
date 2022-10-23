@@ -9,73 +9,84 @@
     <title>Assignment-2</title>
 </head>
 <body>
-    <div class="container">
-        <div class="img-ctnr">
-            <div class="header-ctnr">
-                <div class="inner-header-ctnr">
-                <h1>BelajarYuk</h1>
-                <p>Let's Learning Something New Today</p>
+    <div class="container full-width">
+        <div class="img-ctnr flex cl">
+            <div class="img-ctnr-inner">
+                <div class="header-ctnr full-width">
+                    <h1>BelajarYuk</h1>
+                    <p>Let's Learning Something New Today</p>
+                </div>
+                <div class="img-ctnr-circle full-width">
+                    
+                            <img class="img2" src="/images/Mobile 2.png" alt="mobil 2">
+                            <img class="img1" src="/images/Mobile 1.png" alt="Mobile 1">        
+                            
+                </div>
+                        <div class="footer-ctnr full-width">
+                            <a href="#"><img src="/images/google-play-badge (1).png" alt="play store">
+                            </a>
+                            <a href="#"><img src="/images/app_store.png" alt="app store">
+                            </a>
+                            </div>
             </div>
-            </div>
-            <div class="img-ctnr-circle">
-                
-                        <img class="img2" src="/images/Mobile 2.png" alt="mobil 2">
-                        <img class="img1" src="/images/Mobile 1.png" alt="Mobile 1">        
-                        
-                    </div>
-                    <div class="header-ctnr"><h1>BelajarYuk</h1>
-                        <p>Let's Learning Something New Today</p>
-                        <br>
-                    </div>
         </div>
-        <div class="form-ctnr">
-            <div class="form-header-ctnr">
-                <h1>Log in to BelajarYuk.</h1>
-                <p>Welcome back! login with your data that you entered during registration</p>
-            </div>
-            <form action="#" method="post" class="form">
-                <button class="google-btn">
-                    Login with Google
-                </button>
-                <button class="google-btn">
-                    Login with Facebook
-                </button>
-                
-                <div class="h-div">
-                    <div class="h-div-line">
-                        <span class="div-txt">oalkjssr</span>
+        <div class="form-ctnr flex cl ">
+            <div class="inner-form-ctnr full-width">
+                <div class="form-header-ctnr">
+                    <h1>Log in to BelajarYuk.</h1>
+                    <p>Welcome back! login with your data that you entered during registration</p>
+                </div>
+                <form action="#" method="post" class="form">
+                    <button class="google-btn full-width no-outline-border form-constant-margin">
+                        <img class="btn-icon" src="https://img.icons8.com/color/48/000000/google-logo.png"/>&nbsp;
+                        Login with Google
+                    </button>
+                    <button class="fb-btn full-width no-outline-border form-constant-margin">
+                        <img src="/images/facebook.png" alt="facebook" class="btn-icon">
+                        Login with Facebook
+                    </button>
+                    
+                    <div class="h-div">
+                        <div class="h-div-line">
+                            <span class="div-txt">or</span>
+                        </div>
                     </div>
+                    <div class="email-ctnr form-constant-margin email full-width">
+                        <i class="fa-solid fa-envelope icon"></i>
+                        <div class="email-ip-contaniner flex cl full-width">
+                            <label for="email-ip" class="email-txt">Email</label>
+                            <input type="email" name="Email" id="email-ip" class="ip" required>
+                        </div>
+                    </div>
+                    <div class="email-ctnr form-constant-margin password">
+                        <i class="fa-solid fa-lock icon"></i>   
+                        <div class="email-ip-contaniner flex cl full-width">
+                            <label for="password-ip" class="password-txt">Password</label>
+                            <input type="password" name="password" id="password-ip" class="ip" required>
+                        </div>                        <i class="fa-solid fa-eye icon"></i>
+                    </div>
+                    <div class="rem-reg-ctnr flex form-constant-margin">
+                     <div class="ctnr-left">
+                        <label class="container-cbox">
+                            <input type="checkbox" id="checkbox">
+                            <label for="checkbox">Remember me</label>
+                            <span class="checkmark"></span>
+                            
+                          </label>
+                     </div>
+                     <div class="ctnr-right">
+                        <a href="#">Forgot your password?</a>
+                    </div>   
+                    </div>
+                    <button class="login-btn full-width no-outline-border">
+                        LOGIN
+                    </button>
+                </form>
+                <div class="register-ctnr">
+                    <p>
+                        Don't have an account? <a href="#">Register</a>
+                    </p>
                 </div>
-                <div class="email-ctnr">
-                    <i class="fa-solid fa-envelope icon"></i>
-                    <span class="sup">Email</span>
-                    <input type="email" name="Email" id="email-ip" class="ip">
-                </div>
-                <div class="email-ctnr">
-                    <i class="fa-solid fa-lock icon"></i>
-                    <span class="sup">Password</span>
-                    </i>
-                    <input type="password" name="password" id="password-ip" class="ip">
-                    <i class="fa-solid fa-eye icon"></i>
-                </div>
-                <div class="rem-reg-ctnr">
-                 <div class="ctnr-left">
-                    <input type="checkbox" name="register" id="register">
-                    <span>Remember me</span>
-                 </div>
-                 <div class="ctnr-right">
-                    <a href="#">Forgot your password?</a>
-                </div>   
-                </div>
-                <button class="login-btn">
-                    LOGIN
-                </button>
-                .
-            </form>
-            <div class="register-ctnr">
-                <p>
-                    Don't have an account? <a href="#">Register</a>
-                </p>
             </div>
         </div>
     </div>
