@@ -190,6 +190,7 @@ body{
     width: 15px;
     background-color: #eee;
     border-radius: 3px;
+    user-select: none;
   }
     .container-cbox input:checked  ~ .checkmark {
     background-color: #008cff;
