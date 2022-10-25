@@ -175,7 +175,6 @@ body{
     display: block;
     position: relative;
     padding-left: 25px;
-    cursor: pointer;
     font-size: var(--des);
   }
   .container-cbox input {
